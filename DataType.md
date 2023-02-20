@@ -1,0 +1,24 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
+
+Java两大数据类型：
+- 内置数据类型
+- 引用数据类型
+## 一、内置数据类型
+Java提供了八种基本类型：
+①六种数据类型（四个整数型，两个浮点型）；
+②一种字符类型；
+③一种布尔型。
+
+### Byte:
+byte数据类型是8位有符号的，以二进制补码表示的整数，最小值是-128（$$-2^7$$）,最大值是$$127$$。默认值为$0$。
